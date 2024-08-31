@@ -12,7 +12,7 @@ def get_random_joke():
         print(f"The Joke: {setup}")
         print(f"Punchline: {punchline}")
     else:
-        print("Failed to retrieve data")
+        print("Sorry, Failed to retrieve data")
 
 if __name__ == "__main__":
     get_random_joke()
